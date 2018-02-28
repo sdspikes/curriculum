@@ -20,7 +20,7 @@
 This lab exercise will introduce Node.js, a powerful JavaScript library that creates a webserver. This is the missing link between local deployment for development purposes and deploying a website so others can access it on the Internet.
 
 ### Objective
-**Students will be able to**
+**Apprentices will be able to**
 - Download and install Node.js
 - Run commands in the Node.js REPL
 - Explain non-blocking I/O
