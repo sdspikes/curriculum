@@ -63,8 +63,8 @@ Please fork starter code [here](https://github.com/chulinguy/Eventful-API-test-p
 
 #### Part 1 - Installation and setup
 
-1. Make sure Sequel Pro is installed properly by creating a test table and query all of its entries
-2. Each group forks the starter code, and then every apprentice clones the forked version to her computer
+1. Make sure Sequel Pro is installed properly by creating a database called `eventfinder` and creating a test table.  Make some entries and and query them.
+2. Each group forks the starter code, and then every apprentice clones the forked version to her computer.
 3. Create a keys.js file in your repo.  
 - go to [Eventful](http://api.eventful.com/) to apply for your own API key
 ```javascipt
@@ -73,7 +73,7 @@ module.exports = {
   "mySql": <YOUR_MYSQL_PASSWORD_HERE>'
 }
 ```
-4. While Sequel Pro running, now uncomment the "mySqlConnect()" line.  You should see the console logs about Eventonica, YAY!
+4. While Sequel Pro running, now uncomment the "mySqlConnect()" line.  You should see the console logs about eventfinder, YAY!
 
 > **PAUSE.** Help your group members finish Part 1 .
 
@@ -82,7 +82,7 @@ module.exports = {
 
 Try running index.js with Node/Nodemon to see how Inquirer work.  Play with it; once you feel comfortable, start looking at the starter code and also skim through this [inquirer tutorial](http://simiansblog.com/2015/05/06/Using-Inquirer-js/)
 
-Now implment the first option: "Complete a sentece".
+Now implment the first option: "Complete a sentence".
 Use inquirer to ask users for 2 string inputs to console log a complete sentence. 
 
 Examples of a sentence to be completed (feel free to make up one on yourself):
